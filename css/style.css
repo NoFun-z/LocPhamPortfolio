@@ -1155,7 +1155,7 @@ main {
         top: 80%;
         right: 0;
         background: rgba(65, 65, 60, 1);
-        width: 100%;
+        width: 300px;
         height: 0px;
         overflow: hidden; /* hide overflow content */
         transition: height 0.3s ease-in-out;
@@ -1165,6 +1165,10 @@ main {
 
     .menu2 li{
         border-bottom: 1px solid #333;
+    }
+
+    .menu2 li a{
+        font-size: 17.5px;
     }
 
     .nav ul li a::after {
@@ -1477,6 +1481,18 @@ main {
         display: block;
     }
 
+    .menu2 {
+        width: 240px;
+    }
+
+    .menu2 li a{
+        font-size: 15px;
+    }
+
+    .menu2.show{
+        height: 340px;
+    }
+
 
     .nav {
         color: #D5D4D4;
@@ -1757,6 +1773,18 @@ main {
         transform: translate(85%, 0%);
     }
 
+    .menu2 {
+        width: 200px;
+    }
+
+    .menu2 li a{
+        font-size: 13px;
+    }
+
+    .menu2.show{
+        height: 330px;
+    }
+
     .about-section{
         height: 650px;
     }
@@ -1872,6 +1900,18 @@ main {
     .title{
         font-size: 14.5px;
         transform: translate(60%, 0%);
+    }
+
+    .menu2 {
+        width: 180px;
+    }
+
+    .menu2 li a{
+        font-size: 10px;
+    }
+
+    .menu2.show{
+        height: 330px;
     }
 
     .language-section{
