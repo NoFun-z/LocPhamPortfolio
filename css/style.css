@@ -116,7 +116,7 @@ header::before {
     top: 0;
     left: 0;
     width: 100%;
-    height: 750px;
+    max-height: 1500px;
     background-image: url('../nier-theme.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -471,6 +471,7 @@ main {
     max-width: 300px;
     max-height: 200px;
     border-radius: 5px;
+    object-fit: cover;
 }
 
 .image-grid img:hover {
@@ -550,6 +551,16 @@ main {
 
 .grid6::after {
     content: "PAC Users maintainence\a C#, HTML/CSS/JS, MVC 5, VS";
+    white-space: pre;
+}
+
+.grid7::after {
+    content: "CHATGPT voice-recognition\a Python, HTML/CSS/JS, VS Code";
+    white-space: pre;
+}
+
+.grid8::after {
+    content: "ISS Web Page\a Wordpress, PHP, HTML/CSS/JS";
     white-space: pre;
 }
 
@@ -934,7 +945,7 @@ main {
     }
 
     .projects-section{
-        height: 900px;
+        height: 1000px;
     }
 
     .projects-section h2{
@@ -1080,7 +1091,7 @@ main {
     }
     
     .projects-section{
-        height: 800px;
+        height: 1100px;
     }
 
     .projects-section h2{
@@ -1304,7 +1315,7 @@ main {
     }
 
     .projects-section{
-        height: 1000px;
+        height: 1100px;
     }
 
     .projects-section h2{
@@ -1378,6 +1389,9 @@ main {
         margin-left: 0;
     }
 
+    .projects-section{
+        height: 1450px;
+    }
     
     .projects-section h2{
         margin-left: 0%;
@@ -1592,7 +1606,7 @@ main {
     }
 
     .projects-section {
-        height: 2000px;
+        height: 2550px;
         margin-top: 0%;
         margin-left: 24.5%;
         padding-top: 15%;
@@ -1972,6 +1986,10 @@ main {
         max-width: 475px;
     }
 
+    .projects-section{
+        height: 2400px;
+    }
+
     .contact-section{
         max-width: 475px;
     }
@@ -2002,6 +2020,7 @@ main {
 
     .projects-section{
         margin-left: 10.8%;
+        height: 2400px;
     }
 
     .projects-section h2{
@@ -2216,6 +2235,7 @@ main {
 
     .projects-section{
         margin-left: 4%;
+        height: 2600px;
     }
     
     .grid-container{
