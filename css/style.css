@@ -564,6 +564,11 @@ main {
     white-space: pre;
 }
 
+.grid9::after {
+    content: "Youtube Clone\a ReactJS, RapidAPI, HTML/CSS";
+    white-space: pre;
+}
+
 .grid-item-overlay {
     content: "";
     margin-top: 3%;
@@ -1390,7 +1395,7 @@ main {
     }
 
     .projects-section{
-        height: 1450px;
+        height: 1750px;
     }
     
     .projects-section h2{
@@ -1606,7 +1611,7 @@ main {
     }
 
     .projects-section {
-        height: 2550px;
+        height: 2800px;
         margin-top: 0%;
         margin-left: 24.5%;
         padding-top: 15%;
@@ -1987,7 +1992,7 @@ main {
     }
 
     .projects-section{
-        height: 2400px;
+        height: 2650px;
     }
 
     .contact-section{
@@ -2020,7 +2025,6 @@ main {
 
     .projects-section{
         margin-left: 10.8%;
-        height: 2400px;
     }
 
     .projects-section h2{
@@ -2235,7 +2239,7 @@ main {
 
     .projects-section{
         margin-left: 4%;
-        height: 2600px;
+        height: 2900px;
     }
     
     .grid-container{
